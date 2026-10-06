@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Loja da TI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="pagina">
+
+        <section class="clientes">
+            <h1>Cadastro de Clientes</h1>
+
+                <div class="lista-clientes">
+                    <form action="http://localhost/lojati/back/index.php" method="POST">
+
+                    <div class="clientes">
+                        <p>
+                            <label>Nome:</label>
+                            <input type="text" name="nome" required>
+                        </p>
+                    </div>
+                    <div class="clientes">
+                        <p>
+                            <label>Email:</label>
+                            <input type="email" name="email" required>
+                        </p>
+                    </div>
+                    <div class="clientes">
+                        <p>
+                            <label>Telefone:</label>
+                            <input type="tel" name="telefone" required>
+                        </p>
+                    </div>
+                    <div class="clientes">
+                        <p>
+                            <label>Endereço:</label>
+                            <input type="text" name="endereco" required>
+                        </p>
+                    </div>
+                    <button type="submit">Cadastrar Clientes</button>
+                    </form>
+                </div>
+
+        </section>
+    </main>
+
+</body>
+
+</html>
